@@ -17,6 +17,6 @@ contract Structs {
     function getUser(uint _id) returns (string, string) {
         // User storage u = users[_id];
         // u.name = "changed";
-        return (users[_id].name, users[_id].email)
+        return (users[_id].name, users[_id].email);
     }
 }
